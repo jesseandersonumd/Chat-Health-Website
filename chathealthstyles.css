@@ -216,7 +216,7 @@ a.button:hover {
     text-decoration:underline;
 }
 
-#table_structure {
+.table_structure {
     
     width:77.5%;
     margin-right:auto;
@@ -282,4 +282,75 @@ a:hover {
     
     font-size:1.6vw;
     padding-right:40px;
+}
+
+@media (max-width: 800px) {
+    .nav_style {
+        width: 95%;
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        background: #fff!important;
+    }
+    
+    .gen_style {
+    
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+        display: table;
+        background: #fff;
+        margin-top: 30px;
+
+    }
+    .container_styles {
+    
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+        display: table;
+        background: #fff;
+        margin-top: 60px;
+        color:black;
+
+    }
+    .nav-headers {
+
+        font-weight:300;
+        padding-bottom:0px;
+        margin-bottom:10px;
+        font-size:1.6vw;
+    }
+    
+    #table-space {
+    
+        margin-top:10px;
+        margin-bottom:0px;
+    }
+    
+    .table_structure {
+    
+        width:90%;
+        margin-right:auto;
+        margin-left:auto;
+        margin-top:12px;
+
+    }
+    
+    .expand_style {
+    
+        text-align: left;
+        color:black;
+        text-decoration:none;
+        font-weight:bold;
+        background:#DEDEDE;
+        padding:1.3vw;
+        font-size:1.3vw;
+    }
+    
+    .card-header {
+        padding:.75vw 1.25vw;
+        
+    }
+
 }
