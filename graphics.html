@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Chat Health</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="chathealthstyles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/bdced515aa.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light nav_style" >
+          <a class="navbar-brand logo" href="home.html">Chat Health</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                  <a class="nav-link nav-headers" href="about.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-headers" href="basicinfo.html">Basic Information</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-headers" href="usethebots.html">How to use our bots</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-headers" href="graphics.html">Monitoring PG County</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-headers" href="mailto:chathealth1@gmail.com">Contact us</a>
+              </li>
+            </ul>
+            <a href="usethebots.html" class="button">Use our bots</a>
+          </div>
+        </nav>
+
+        <div class="jumbotron gen_style">
+            <p id="graph_header">Confirmed cases time-series</p>
+            <iframe width="100%" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jesseanderson22/3.embed"></iframe>
+            <p id="annotation"><i>This graph plots confirmed cases from when PG County began reporting data on February 28 to present day. A confirmed case is a person who has tested positive for COVID-19 from an FDA-approved diagnostic test. If you hover over today's value, you will see the total number of unique individuals who have had a positive PCR test. Our data is updated daily between 11am-12pm ET. For optimal viewing experience, please explore this graph from your computer.</i></p>
+
+        </div>
+        
+        <div style='width:77.5%;margin-right:auto;margin-left:auto;margin-top:0px'>
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link expand_style" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Here's where to look first when examining graphs
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <ul>
+                                <li class="text_general">
+                                    First and foremost, look at the title. What is it telling you? To figure out what the title actually means in context, try to find annotations - these are captions that are generally below graphs or in categories like ‘data definitions’ on a state’s website. This can help you figure out what the shape of the graph might mean.
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed expand_style" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Using context to understand the shape of the graph
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                        
+                            <ul>
+                                <li class="text_general">
+                                    Now the shape is really important, but it can be tricky to figure out unless you’ve given yourself some much needed context. If you’re looking at a graph and you see a flat line, look closely - is it talking about new cases? If so, the situation actually isn’t improving. Think about it like this: if we had 125 new cases of COVID-19 one day and then 127 the next, the graph would still look like a flat-line, but our situation would not be improving.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed expand_style" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+                                Closing thoughts and final tips for understanding data
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                        
+                            <ul>
+                                <li class="text_general">
+                                    If things are looking up, then our actual line would be decreasing, not just flatlining. This is something you’d be able to figure out after reading what the axes are (how does x relate to y?), what the title says, and what the annotation tells us.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light nav_style" style="margin-bottom:30px;margin-top:70px">
+          <a class="navbar-brand footer_style" href="home.html" class="bottom_link" >Chat Health</a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li>
+                </li>
+            </ul>
+            <a href="usethebots.html" class="button" style="font-size:1.2vw">Use our bots</a>
+        </nav>
+    </body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Health</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="chathealthstyles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/bdced515aa.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light nav_style" >
+          <a class="navbar-brand logo" href="home.html">Chat Health</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                  <a class="nav-link nav-headers" href="about.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-headers" href="basicinfo.html">Basic Information</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-headers" href="usethebots.html">How to use our bots</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-headers" href="graphics.html">Monitoring PG County</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-headers" href="mailto:chathealth1@gmail.com">Contact us</a>
+              </li>
+            </ul>
+            <a href="usethebots.html" class="button">Use our bots</a>
+          </div>
+        </nav>
+
+        <div id='table_structure'>
+            <div id="table-space">
+                <p id="key-info">Essential information</p>
+            </div>
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link expand_style" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What are some of the most important things I can do to protect myself and our community?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <ul>
+                                <li class="text_general">To protect yourself and others, wash your hands frequently with soap and water for at least 20 seconds. While it’s important to wash your hands regularly throughout the day, it is especially important to wash your hands before touching your face and after using the bathroom, going into a public space, blowing your nose, coughing, removing your mask, helping someone who may be sick, and touching animals. If you do not have access to soap and water, use hand sanitizer that has at minimum 60% alcohol, and avoid touching your face if you haven’t washed your hands.</li>
+                                <li class="text_general">Practice social distancing. This means six feet between you and other people at all times. Social distancing, however, does not mean complete isolation. Find time to chat with your friends and family through phone calls, video calls, or emailing. Just make communication digital.</li>
+                            </ul>
+                            
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed expand_style" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How does the virus actually get transmitted? Why does it help if I wear a mask and socially-distance? 
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                        
+                            <ul>
+                                <li class="text_general">
+                                    According to the CDC, the virus is believed to spread when someone with the virus comes into close contact (within 6 feet) with other individuals. The virus is transmitted through respiratory droplets that are produced when someone coughs, talks, or sneezes; these droplets can then be inhaled into someone’s lungs. 
+                                </li>
+                                <li class="text_general">
+                                    Wearing a mask protects you and everyone around you. It’s possible to spread COVID-19 if you are asymptomatic (meaning you do not outwardly show symptoms), and the mask can protect others if you’re infected with the virus. If you do not have physical conditions that impede your breathing or prevent you from removing a mask without aid, wear a <a href='https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2769441' target='_blank'>mask.</a>
+                                </li>
+                                <li class="text_general">
+                                    In addition, you can avoid spreading your own germs by coughing into the crook of your elbow and staying home when you are sick.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed expand_style" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What symptoms should I look out for? 
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            <ul>
+                                <li class="text_general">
+                                    Let’s start by clarifying that anyone of any age and background can show symptoms that can range from mild to severe. Older people and people who are immunocompromised are at an increased risk of developing severe symptoms. 
+                                </li>
+                                <li class="text_general">
+                                    As we’ve started to understand the pandemic better, the CDC has updated their list of symptoms to include everything from fever and chills to shortness of breath to cough to fatigue - see an updated list of symptoms <a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target='_blank'>here.</a>
+                                </li>
+                                <li class="text_general">
+                                    Some very <a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target='_blank'>important symptoms</a> to monitor for are trouble breathing, difficulty waking or staying awake, bluish face or lips, newly developed confusion, and consistent pain in your chest. If you notice any of these symptoms, notify the health center or your local emergency department to let them know you are coming in beforehand. 
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed expand_style" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                How is COVID-19 different than, say, the flu?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
+                            <ul>
+                                <li class="text_general">
+                                    The flu and COVID-19 are pretty different. They are both respiratory diseases, but COVID-19 is caused by a novel coronavirus called SARS-CoV-2 and the flu is caused by influenza viruses. 
+                                </li>
+                                
+                                <li class="text_general">
+                                    Their symptoms are fairly similar. Beyond symptoms shared by COVID-19 and the flu, as discussed above, COVID-19 may lead to a loss or change in taste or smell. 
+                                </li>
+                                
+                                <li class="text_general">
+                                    For the flu, people usually develop symptoms between 1-4 days after being infected. But, for COVID-19, people generally develop symptoms five days after infection, but can develop symptoms as early as two days and as late as 14 days. 
+                                </li>
+                                
+                                <li class="text_general">
+                                    For COVID-19, someone can spread the virus for roughly two days before showing symptoms. They can also stay contagious for at least 10 days after they initially start showing symptoms. For the most part, people with the flu are contagious one day before showing symptoms. Older children and adults are the most contagious during the first 3-4 days of being infected, and generally stay contagious for seven days. Infants and immunocompromised people can be contagious for longer than seven days. 
+                                </li>
+                                <li class="text_general">
+                                    For more information about the differences, view the CDC’s <a href='https://www.cdc.gov/flu/symptoms/flu-vs-covid19.htm#table' target='_blank'>most current</a> list of the differences.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFive">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed expand_style" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                                What should I do if I get COVID-19? When should I start quarantining and how can I do so in a shared living space?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                        <div class="card-body">
+                            <ul>
+                            
+                                <li class="text_general">
+                                    If you were close (as in, roughly within six feet) to someone who tests positive for COVID-19, testing is important - <a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/testing.html' target='_blank'>even if you feel fine.</a> Additionally, if you used the same objects, utensils, or living spaces that they did, it’s important to quarantine. To monitor your symptoms effectively, take your temperature regularly if you <a href='https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/steps-when-sick.html' target='_blank'>suspect you have the virus</a> and pay close attention to a fever (100.4◦F), coughing, or shortness of breath. The CDC has provided a list of scenarios that may apply to you that can help you find out when to start quarantining, accessible <a href='https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/quarantine.html' target='_blank'>here.</a> Either way, even if you feel ok, quarantining is important because you may only start showing symptoms 2-14 days after exposure. 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light nav_style" style="margin-bottom:30px;margin-top:70px">
+          <a class="navbar-brand footer_style" href="home.html" class="bottom_link" >Chat Health</a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li>
+                </li>
+            </ul>
+            <a href="usethebots.html" class="button" style="font-size:1.2vw">Use our bots</a>
+        </nav>
+    </body>
+</html>

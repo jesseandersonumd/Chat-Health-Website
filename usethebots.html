@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Health</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="chathealthstyles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/bdced515aa.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light nav_style" >
+          <a class="navbar-brand logo" href="home.html">Chat Health</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                  <a class="nav-link nav-headers" href="about.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-headers" href="basicinfo.html">Basic Information</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-headers" href="usethebots.html">How to use our bots</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-headers" href="graphics.html">Monitoring PG County</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-headers" href="mailto:chathealth1@gmail.com">Contact us</a>
+              </li>
+            </ul>
+            <a href="usethebots.html" class="button">Use our bots</a>
+          </div>
+        </nav>
+        
+        <div class="jumbotron gen_style" style="margin-bottom:0px!important">
+            <div style="width:60%;float:left;">
+                <p id="bots_welcome">
+                    Our chatbots attempt to centralize and digest the abundance of information about Covid-19. They cover the basics of what the disease is, contextualizes statistics, explain some common phrases like 'social distancing', and aim to counter the spread of misinformation with accurate, medically-supported explanations. Our SMS-bot is available from 9am-8pm, and our Telegram bot is available 24/7.
+                <p>
+            </div>
+            
+            <div style="width:40%;float:right">
+                <img src="data.svg" class="image_style_right">
+            </div>
+            
+        </div>
+        
+        <div style='width:77.5%;margin-right:auto;margin-left:auto;margin-top:0px'>
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link expand_style" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                How to use the SMS bot
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <ul>
+                                <li class="text_general">
+                                    This free-text bot allows users to ask questions about COVID-19 diagnostics, prevention strategies, and symptom verification. All responses will be vetted hourly by our Public Health Volunteers to ensure a timely and accurate response.
+                                </li>
+                                <li class="text_general">
+                                    Text "Hello" to +1 (737) 234 2428.
+                                </li>
+                            </ul>
+                            
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed expand_style" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How to use the Telegram bot
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                        
+                            <ul>
+                                <li class="text_general">
+                                    This options based bot will allow for structured user-interaction on a variety of COVID-19 topics including: diagnostic information, testing, prevention strategies, student resources, and positive reinforcement during quarantine. 
+                                </li>
+                                <li class="text_general">
+                                    When operating the chatbot, Telegram will give you the option to write a message to the bot. The bot will not respond to messages and is only programmed to respond to which button you press. Please only choose among the button options provided beneath the text area.
+                                </li>
+                                <li class="text_general">
+                                    Type in @hopeforhealth_bot into Telegram.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light nav_style" style="margin-bottom:30px;margin-top:70px">
+          <a class="navbar-brand footer_style" href="home.html" class="bottom_link" >Chat Health</a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li>
+                </li>
+            </ul>
+            <a href="usethebots.html" class="button" style="font-size:1.2vw">Use our bots</a>
+        </nav>
+    </body>
+</html>
+        

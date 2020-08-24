@@ -1,0 +1,285 @@
+.nav_style {
+    
+    width: 80%;
+    margin-top: 20px; 
+    margin-right: auto; 
+    margin-left: auto; 
+    background: #fff!important
+    
+}
+
+.gen_style {
+    
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+    background: #fff;
+    margin-top: 30px;
+    
+}
+
+.left {
+    
+    width:60%;
+    float:left;
+    
+}
+
+.right {
+    
+    width:40%;
+    float:right;
+    
+}
+
+.image_style_right {
+    
+    vertical-align: middle;
+    border-style: none;
+    text-align: center;
+    margin: 0 auto;
+    float: right;
+    max-width: 90%;
+    height: auto;
+    width: auto\9;
+    
+}
+
+.image_style_left {
+    
+    vertical-align: middle;
+    border-style: none;
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+.container_styles {
+    
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+    background: #fff;
+    margin-top: 60px;
+    color:black;
+    
+}
+
+#meet_the_bots {
+    
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+.bot_images {
+    
+    display: block;
+    margin: 0 auto;
+    max-width:60%;
+    height: auto;
+    width: auto\9;
+}
+
+.bot_div {
+    
+    width:50%;
+    padding:10px;
+    
+}
+
+.header_1 {
+    
+    text-align:center;
+    margin-bottom:40px;
+    font-size:1.6vw;
+    font-weight:700;
+    
+    
+}
+
+.small_header {
+    
+    margin-top:20px;
+    text-align:center;
+    font-size:1.4vw;
+}
+
+.text_small {
+    
+    text-align: center;
+    font-size:1.2vw;
+    font-weight:300;
+}
+
+#pub_health_text {
+    
+    font-size: 1.3vw;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-weight:300;
+}
+
+.button {
+    
+    background-color:#3477db;
+    color:#ffffff;
+    border:1px;
+    border-radius:10px;
+    padding:10px;
+    
+}
+
+a.button:hover {
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    
+}
+
+#header_ud {
+    
+    text-align:center;
+    font-size:1.8vw;
+    text-decoration:underline;
+}
+
+.text_general {
+    
+    font-size:1.2vw;
+}
+
+.expand_style {
+    
+    text-align: left;
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+    background:#DEDEDE;
+    padding:10px;
+    font-size:1.3vw;
+}
+
+.expand_style:hover {
+    
+    text-decoration:none;
+    color:black;
+}
+
+.expand_style:active {
+    
+    text-decoration:none;
+    color:black;
+}
+
+.bottom_link {
+    
+    font-size:1.3vw;
+    font-weight:300;
+    padding-top:0px;
+}
+
+.fourmaryland {
+    
+    font-weight:700;
+    padding-top:0px;
+    padding-bottom:0px;
+    font-size:1.3vw;
+    color:#2574a9;
+    
+}
+
+.footer_style {
+    
+    font-size:1.3vw;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+
+#annotation {
+    
+    text-align:center;
+    font-size:1.3vw;
+    margin-top:10px;
+}
+
+#graph_header {
+    
+    text-align:center;
+    font-size:2.1vw;
+    text-decoration:underline;
+}
+
+#table_structure {
+    
+    width:77.5%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:12px;
+    
+}
+
+#key-info {
+    
+    font-size:1.6vw;
+    font-weight:800;
+}
+
+#table-space {
+    
+    margin-top:40px;
+    margin-bottom:20px;
+}
+
+a {
+    font-weight:bold;
+    color:black;
+}
+
+a:hover {
+    
+    text-decoration: none;
+    color:#3455db;
+}
+
+#sms {
+    
+    text-align:center;
+    margin-top:5px;
+    font-size:1.4vw;
+}
+
+#telegram {
+    
+    text-align:center;
+    margin-top:5px;
+    font-size:1.4vw;
+}
+
+.nav-headers {
+    
+    font-weight:300;
+    padding-bottom:0px;
+    margin-bottom:10px;
+    
+}
+
+.logo {
+    
+    font-weight:900;
+    padding-bottom:0px;
+    margin-bottom:7px;
+    font-size:1.6vw;
+}
+
+#bots_welcome {
+    
+    font-size:1.6vw;
+    padding-right:40px;
+}
