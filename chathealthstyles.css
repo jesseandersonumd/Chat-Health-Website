@@ -8,6 +8,16 @@
     
 }
 
+ul {
+    
+    margin-left:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-right:10px;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
 .gen_style {
     
     width: 80%;
@@ -352,5 +362,17 @@ a:hover {
         padding:.75vw 1.25vw;
         
     }
+    
+    ul {
+    
+        margin-left:0px;
+        padding-left:0px;
+        padding-top:0px;
+        padding-bottom:0px;
+        padding-right:10px;
+        margin-bottom:0px;
+        margin-top:0px;
+    }
+
 
 }
