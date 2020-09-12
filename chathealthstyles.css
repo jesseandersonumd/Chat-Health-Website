@@ -109,8 +109,7 @@ ul {
     margin-bottom:40px;
     font-size:1.6vw;
     font-weight:700;
-    
-    
+     
 }
 
 .small_header {
@@ -343,7 +342,7 @@ a:hover {
         margin-left: auto;
         display: table;
         background: #fff;
-        margin-top: 60px;
+        margin-top: 30px;
         color:black;
 
     }
@@ -395,6 +394,15 @@ a:hover {
         padding-right:10px;
         margin-bottom:0px;
         margin-top:0px;
+    }
+    
+    .header_1 {
+    
+        text-align:center;
+        margin-bottom:20px;
+        font-size:1.6vw;
+        font-weight:700;
+
     }
 
 
