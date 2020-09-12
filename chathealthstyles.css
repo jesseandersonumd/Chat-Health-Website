@@ -303,6 +303,20 @@ a:hover {
     text-align:left;
 }
 
+.graphic_row {
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:2.0vw;
+}
+
+.graphic_div {
+    background-color:#00FA9A;
+    border-radius:20px;
+    padding:1.3vw;
+    max-width:31%;
+    height:auto;
+}
+
 @media (max-width: 800px) {
     .nav_style {
         width: 95%;

@@ -44,12 +44,25 @@
           </div>
         </nav>
 
-        <div class="jumbotron gen_style">
-            <p id="graph_header">Confirmed cases time-series</p>
-            <iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plotly.com/~jesseanderson22/3.embed"></iframe>
-            <p id="annotation"><i>This graph plots confirmed cases from when PG County began reporting data on February 28 to present day. A confirmed case is a person who has tested positive for COVID-19 from an FDA-approved diagnostic test. If you hover over today's value, you will see the total number of unique individuals who have had a positive PCR test. Our data is updated daily between 11am-12pm ET. For optimal viewing experience, please explore this graph from your computer.</i></p>
-
-        </div>
+        <section class="features container_styles">
+          <div class="container">
+            <h4 class="header_1">Here's what you need to know today</h4>
+            <div class="row graphic_row">
+              <div class="col-md-4 graphic_div">
+                <h4 class="small_header" id="positive_tests">4.4% positive tests</h4>
+                <p class="text_small">This represents the percent of tests done throughout the week that were positive. There were 4.1% positive tests last week.</p>
+              </div>
+              <div class="col-md-4 graphic_div">
+                <h4 class="small_header" id="new_cases">780 new cases</h4>
+                <p class="text_small">This represents the number of new confirmed positive cases reported this week. There were 695 new cases reported last week.</p>
+              </div>
+              <div class="col-md-4 graphic_div">
+                <h4 class="small_header" id="hospitalizations">49 hospitalizations</h4>
+                <p class="text_small">This value represents the average number of people hospitalized for Covid-19 this week. There were 60 average hospitalizations last week.</p>
+              </div>
+            </div>
+          </div>
+        </section>
         
         <div class="table_structure">
             <div id="accordion">
