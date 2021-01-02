@@ -1,108 +1,104 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Welcome to Caring</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/bdced515aa.js" crossorigin="anonymous"></script>
-    <script>
-      function fontChange(type) {
-        let text = document.querySelectorAll('.content-text, .main-text');
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="chathealthstyles.css">
 
-        for (let i = 0; i < text.length; i++) {
-          let selectedStyle = window.getComputedStyle(text[i], null).getPropertyValue('font-size');
-          let size = parseFloat(selectedStyle);
-          if (type === "increase" ) {
-            if (size <= 23) {
-              text[i].style.fontSize = (size + 2) + 'px';
-            }
-          }
-          else {
-            if (size >= 17) {
-              text[i].style.fontSize = (size - 2) + 'px';
-            }
-          }
-        }
-      }
-    </script>
-  </head>
-  <body>
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light nav_style" >
+          <a class="navbar-brand logo" href="home.html">Chat Health</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="width:1.5vw;height:1.5vw"></span>
+          </button>
 
-    <header tabindex="0">
-      <nav>
-        <div class="menu-logo">
-          <a href="home.html" class="logo" accesskey="a"><p>Caring <i class="fas fa-comment-dots" id="logo-img"></i></p></a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                  <a class="nav-link nav-headers" href="about.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-headers" href="basicinfo.html">Basic Information</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-headers" href="usethebots.html">How to use our bots</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-headers" href="graphics.html">Monitoring PG County</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-headers" href="mailto:chathealth1@gmail.com">Contact us</a>
+              </li>
+            </ul>
+            <a href="usethebots.html" class="button" style="font-size:1.2vw">Use our bots</a>
+          </div>
+        </nav>
+        
+        
+        
+        <div class="jumbotron gen_style">
+            <div class="left">
+                <h3 style="font-size:2.0vw">We're here for you</h3>
+                <p style="font-size:1.6vw;font-weight:300">
+                    Our automated chatbot walks you through difficult medical conversations while maintaining the feel of human-to-human connection. Now updated with the most recent information about PG county cases trends and the University of Maryland's re-opening protocol. 
+                <p>
+                <a href="usethebots.html" class="button" style="font-size:1.2vw">Use our bots</a>
+            </div>
+            
+            <div style="width:40%;float:right">
+                <img src="home.svg" class="bot_images" style="max-width:60%;">
+            </div>
+            
         </div>
-        <div class="menu-items">
-          <a href="about.html" class="item" accesskey="b"><p>About</p></a>
-          <a href="https://web.telegram.org/#/login" target="_blank" class="item" accesskey="c"><p>Telegram</p></a>
-          <div class="increaseOrDecrease">
-            <a href="javascript:fontChange('increase')" class="incDec"><p>A+</p></a> <a href="javascript:fontChange('decrease')" class="incDec"><p>A-</p></a>
+        
+        <section class="features container_styles">
+          <div class="container">
+            <h4 class="header_1">Accessible and research-driven</h4>
+            <div class="row">
+              <div class="col-md-4">
+                <img src="convo.png" class="bot_images">
+                <h5 class="small_header">Facilitating dialogue</h5>
+                <p class="text_small">Breaking down challenging topics to give you the information you need without getting overwhelmed.</p>
+              </div>
+              <div class="col-md-4">
+                <img src="science.png" class="bot_images">
+                <h5 class="small_header">Prioritizing science</h5>
+                <p class="text_small">Science first, always. Our information is medically-accurate and we will never 'dumb down' information.</p>
+              </div>
+              <div class="col-md-4">
+                <img src="data_img.png" class="bot_images">
+                <h5 class="small_header">Grounded in data</h5>
+                <p class="text_small">Chat Health is a dynamic platform responsive to trends in public health data for the topics we cover. See where we get our data from.</p>
+              </div>
+            </div>
           </div>
+        </section>
+        
+        <div class="jumbotron container_styles">
+            <h4 class="header_1" style='margin-bottom:5px!important'>Built with community in mind and powered by volunteers</h4>
+            <p id="pub_health_text">
+                Our public health volunteers are what make our AI bot human. Our community means a lot to us, and it's what drive us to do better and make our system more human-centered. 
+            <p>
+            <img src="community.png" class="bot_images" style="max-width:60%;">
+            
         </div>
-      </nav>
-    </header>
-
-    <main tabindex="0">
-      <div class="container">
-        <div class="content">
-          <div class="content-text">
-            <h2>Hi, I'm Caring.</h2>
-            <h3>Comprehensive HIV education in a chatbot. Join people around the world and #geteducated about HIV. Caring is like your knowledgable, cool best friend. Get talking. </h3>
-            <a href="https://web.telegram.org/#/login" target="_blank" class="button" accesskey="d">Chat with @caringhiv_bot on Telegram here</a>
-          </div>
-          <div class="content-image">
-            <img src="first_image.gif" alt="This image shows a student with a tan outfit and book interacting with a tablet.">
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <section tabindex="0">
-      <div class="main-content">
-        <div class="content">
-          <div class="main-text">
-            <h2>Learn everything from basic information to what to do if you're HIV-positive at your own pace.</h2>
-            <h3>We cover basic details about HIV itself, the transmission process, living with HIV, myths, and so much more. We're here to help with tailored education that's accessible, engaging, and fun.</h3>
-            <a href="about.html" class="main-button" accesskey="e">Learn more about why Caring began</a>
-          </div>
-          <div class="content-image">
-            <img src="second_image.gif" alt="Another student is pictured with an orange sweater and a brown tablet. She is typing on the tablet.">
-          </div>
-        </div>
-        <div class="content">
-          <div class="main-text">
-            <h2>An application that provides you with privacy & positivity.</h2>
-            <h3>Our application's chats are confidential, and we consistently promote positivity to dispel stigma. You aren't dirty because you have HIV, and you don't have to be HIV+ if you want to get more educated about it.</h3>
-            <a href="https://telegram.org/privacy" target="_blank" class="main-button" accesskey="f">Read Telegram's Privacy Policy</a>
-          </div>
-          <div class="content-image">
-            <img src="third_image.gif" alt="A student with blue jeans and a white shirt is using a pink tablet to chat with Caring the bot.">
-          </div>
-        </div>
-        <div class="content">
-          <div class="main-text">
-            <h2>We want you to feel confident about your sexual health.</h2>
-            <h3>Whenever you check your phone, you can text with our Caring bot to learn more about HIV. As long as you have internet access, you can learn about HIV while shopping, riding the bus, frying up a pancake - wherever you have internet.</h3>
-            <a href="https://web.telegram.org/#/login" target="_blank" class="main-button" accesskey="g">Test out Caring for yourself - text @caringhiv_bot</a>
-          </div>
-          <div class="content-image">
-            <img src="fourth_image.gif" alt="A student in a yellow shirt and green sweatshirt is using their phone to chat with Caring.">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer tabindex="0">
-      <nav class="footer-nav">
-        <div class="footer-menu-logo">
-          <p class="logo">Caring <i class="fas fa-comment-dots" id="logo-img"></i></p>
-        </div>
-        <div class="footer-menu-items">
-          <a href="https://drive.google.com/open?id=1J_pBBTy6bk0ICoyMKEYPrJJYCKhklSBc" target="_blank" class="item" accesskey="h"><p>More resources</p></a>
-        </div>
-      </nav>
-    </footer>
-  </body>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light nav_style" style="margin-bottom:30px;margin-top:70px">
+          <a class="navbar-brand footer_style" href="http://chathealth.herokuapp.com/home.html" class="bottom_link" >Chat Health</a>
+          <a class="navbar-brand footer_style" href="http://chathealth.herokuapp.com/theteam.html" class="bottom_link" style="color:#838383">Meet our team</a>
+          <a class="navbar-brand footer_style" href="http://chathealth.herokuapp.com/resources.html" class="bottom_link" style="color:#9c9c9c">Additional resources</a>
+          <a class="navbar-brand footer_style" href="http://34.231.192.182/volunteer" class="bottom_link" style="color:#3477db">Volunteer Login</a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li>
+                </li>
+            </ul>
+            <a href="http://chathealth.herokuapp.com/usethebots.html" class="button" style="font-size:1.2vw">Use our bots</a>
+        </nav>
+        
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
 </html>
